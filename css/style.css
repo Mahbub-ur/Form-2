@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: normal;
+    background: #fafafa;
+}
+.form_design{
+
+background-color: white;
+
+display: flex;
+
+justify-content: center;
+
+height: 600px;
+
+width: 1000px;
+
+margin: 50px auto;
+
+align-items: center;
+
+border-radius: 8px;
+
+box-shadow: 0px 0px 15px 5px #d1c4c4;
+}
+.left_part{
+
+width: 33%;
+
+height: 80%;
+
+display: flex;
+
+flex-direction: column;
+
+padding: 60px 40px;
+
+background: #01d28e;
+}
+.left_part h1{
+
+font-size: 28px;
+
+font-weight: 600;
+
+margin-bottom: 10px;
+
+color: white;
+}
+.left_part p{
+
+font-size: 14px;
+
+color: #ccf6e8;
+
+margin-bottom: 10px;
+}
+.left_part .section{
+
+display: flex;
+
+align-items: start;
+
+margin-bottom: 25px;
+
+width: 100%;
+}
+.left_part .section i{
+
+font-size: 24px;
+
+color: white;
+
+line-height: 2.1;
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+}
+.left_part .section p{
+
+width: 60%;
+
+/* height: 50px; */
+}
+.left_part .section .icon{
+    
+width: 50px;
+    
+height: 50px;
+    
+border: 0.1px solid rgba(255,255,255,0.6);
+    
+border-radius: 50%;
+    
+margin-right: 15px;
+}
+.right_part{
+
+width: 70%;
+
+height: 590px;
+}
+.right_part h1{
+
+font-size: 36px;
+
+font-weight: 400;
+
+margin: 25px;
+}
+.right_part form{
+
+margin: 0 25px;
+}
+.right_part form .part_1{
+
+display: flex;
+
+justify-content: space-between;
+
+width: 100%;
+
+margin-bottom: 20px;
+}
+.right_part form .part_1 .fname{
+
+width: 47%;
+
+display: flex;
+
+flex-direction: column;
+}
+.right_part form .part_1 .email{
+
+width: 47%;
+
+display: flex;
+
+flex-direction: column;
+}
+.right_part form label{
+
+font-size: 18px;
+
+margin-bottom: 5px;
+
+text-transform: uppercase;
+
+font-weight: 600;
+
+letter-spacing: -0.5px;
+
+padding: 0 10px;
+}
+.right_part form input{
+
+width: 90%;
+
+padding: 5px 10px;
+
+border: none;
+
+border-bottom: 1px solid #b2b2c6;
+
+margin-bottom: 20px;
+}
+.right_part form input:focus,
+.right_part form textarea:focus{
+    outline: none;
+}
+.right_part form input:nth-child(3){
+    width: 95%;
+}
+.right_part form textarea{
+
+width: 95%;
+
+padding: 5px 10px;
+
+margin-top: 6px;
+border: none;
+
+border-bottom: 1px solid #b2b2c6;
+}
+.right_part form input[type="submit"]{
+    
+width: auto;
+    
+padding: 15px 15px;
+    
+border: none;
+    
+border-radius: 8px;
+    
+background: #01d28e;
+    
+color: white;
+    
+font-size: 18px;
+    
+font-weight: 600;
+    
+cursor: pointer;
+    
+margin-top: 7px;
+}
